@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 120px;
+            height: 120px;
+            background: green;
+            margin: 20px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+        }
+        .scale-x{
+            transform: scaleX(2);
+            transform: skewX(25deg);
+        }
+        .scale-y{
+            transform: scaleY(1.2);
+        }
+        .scale-both{
+            transform: scale(1.5,1.5);
+            background: red;
+        }
+    </style>
+</head>
+<body>
+     <h1>CSS Transform : scale() Demo</h1>
+    <div class="box">Normal</div>
+    <div class="box scale-x">scale x</div>
+    <div class="box scale-y">scale y</div>
+    <div class="box scale-both">scale both</div>
+</body>
+</html>
